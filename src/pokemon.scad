@@ -76,20 +76,32 @@ module squirtle() {
   );
 }
 
+module charmander() {
+  lamp(
+    src         = "../lib/charmander_starter_1gen_flowalistik.stl",
+    rotation    = [  0,     0,   0 ],
+    translation = [  7.75,  0,  45 ],
+    height      = mount_height + 5,
+    depth       = mount_depth
+  );
+}
+
 module all() {
-  translate([-50, 0, 0]) { bulbasaur(); }
-  translate([-10, 0, 0]) { pikachu();   }
-  translate([+30, 0, 0]) { totodile();  }
-  translate([+75, 0, 0]) { squirtle();  }
+  translate([ -50, 0, 0]) { bulbasaur();  }
+  translate([ -10, 0, 0]) { pikachu();    }
+  translate([  30, 0, 0]) { totodile();   }
+  translate([  75, 0, 0]) { squirtle();   }
+  translate([ 115, 0, 0]) { charmander(); }
 }
 
 // modules to render the different pokemons
 // render() is needed because without it the differences causes the base file
 // not to be rendered
 
-// render() { bulbasaur(); }
-// render() { pikachu();   }
-// render() { totodile();  }
-// render() { squirtle();  }
-render() { all();       }
+// render() { bulbasaur();  }
+// render() { pikachu();    }
+// render() { totodile();   }
+// render() { squirtle();   }
+// render() { charmander(); }
+render() { all();        }
 
