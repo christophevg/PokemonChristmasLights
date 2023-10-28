@@ -5,7 +5,7 @@
 > [!IMPORTANT]  
 > This repo has been [archived](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories#)
 
-Read the full story of these [Pokemon Christmas Lights](http://christophe.vg/technology/Pokemon-Christmas-Lights) with more pictures on my website.
+Read the full story of these [Pokemon Christmas Lights](https://christophe.vg/technology/Pokemon-Christmas-Lights) with more pictures on my website.
 
 ![Pokemon Christmas Lights](media/all.png)
 
